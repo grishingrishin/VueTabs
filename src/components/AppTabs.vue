@@ -34,6 +34,7 @@ export default {
     methods: {
         changeActiveTabId(tabId) {
             this.activeTabId = tabId;
+            this.$emit('input', tabId);
         },
     },
 };

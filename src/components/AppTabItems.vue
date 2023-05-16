@@ -10,10 +10,6 @@
 export default {
     name: 'CETabItems',
     props: {
-        value: {
-            type: [String, Number],
-            default: '',
-        },
         tag: {
             type: String,
             default: 'div',
